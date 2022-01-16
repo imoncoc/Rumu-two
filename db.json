@@ -1,0 +1,152 @@
+{
+  "signupUsers": [
+    {
+      "fullName": "Md Imon Hossain",
+      "number": "01521325206",
+      "email": "imon10@gmail.com",
+      "password": "testImon",
+      "id": "1"
+    },
+    {
+      "fullName": "Md Zobayer Mahmud",
+      "number": "01409280164",
+      "email": "zobayer10@gmail.com",
+      "password": "testZobayer",
+      "id": "2"
+    },
+    {
+      "fullName": "Md Munna",
+      "number": "01931934071",
+      "email": "munna10@gmail.com",
+      "password": "testMunna",
+      "id": "3"
+    },
+    {
+      "fullName": "Si Shohan",
+      "number": 112121214,
+      "email": "shohan10@gmail.com",
+      "password": "testShohan",
+      "id": "TUzwYd2"
+    },
+    {
+      "fullName": "Md Riaz",
+      "number": 55551248545,
+      "email": "riaz10@gmail.com",
+      "password": "testRiaz",
+      "id": "s7kBy3O"
+    },
+    {
+      "fullName": "dfds",
+      "number": 5515,
+      "email": "test@test.com",
+      "password": "45",
+      "id": "mGHJa4z"
+    },
+    {
+      "fullName": "Imon Hossain",
+      "number": 1521325260,
+      "email": "imon11@gmail.com",
+      "password": "gdvfghdf",
+      "id": "ivhHRdW"
+    },
+    {
+      "fullName": "Imon Hossain",
+      "number": 545454,
+      "email": "riaz11@gmail.com",
+      "password": "gdfsgdfsg",
+      "id": "V3hDT_D"
+    }
+  ],
+  "cart": [],
+  "products": [
+    {
+      "id": "CD-01",
+      "name": "Orginal Cotton",
+      "price": 520,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 5,
+      "imageUrl": "assets/image/rumuChild-1.jpg"
+    },
+    {
+      "id": "CD-02",
+      "name": "Orginal Cotton",
+      "price": 580,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 20,
+      "imageUrl": "assets/image/rumuChild-2.jpg"
+    },
+    {
+      "id": "CD-03",
+      "name": "Orginal Cotton",
+      "price": 620,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 12,
+      "imageUrl": "assets/image/rumuChild-3.jpg"
+    },
+    {
+      "id": "CD-04",
+      "name": "Short Kurti",
+      "price": 720,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 7,
+      "imageUrl": "assets/image/rumuChild-4.jpg"
+    },
+    {
+      "id": "CD-05",
+      "name": "Short Kurti",
+      "price": 550,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 11,
+      "imageUrl": "assets/image/rumuChild-5.jpg"
+    },
+    {
+      "id": "CD-06",
+      "name": "Short Kurti",
+      "price": 490,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 16,
+      "imageUrl": "assets/image/rumuChild-6.jpg"
+    },
+    {
+      "id": "CO-01",
+      "name": "Long Kurti",
+      "price": 820,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 6,
+      "imageUrl": "assets/image/rumuOld-1.jpg"
+    },
+    {
+      "id": "CO-02",
+      "name": "Long Kurti",
+      "price": 860,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 11,
+      "imageUrl": "assets/image/rumuOld-2.jpg"
+    },
+    {
+      "id": "CO-03",
+      "name": "Long Kurti",
+      "price": 890,
+      "description": "Product Types: Tops & plazo For Stylish Women Main Materials : gorjat Design : Indian elite design. Look : like as catelogue. Gender : women. Quality : Ensuring High quality. Gorgious & flexible to use. luxurious Fashionable. Size Mention as free size. Every one can adjust. This product comes with very Stylish design which provides a attractive look in it. The material used in it will meet your expectation and need also. Fulfill your purpose and enjoy the feel of good quality product. Color:White and Red Dress Chest Size: -S-36.M-38.L-40.XL-42.2XL-44.,,,LONG;36,38,,40,42",
+      "stock": 9,
+      "imageUrl": "assets/image/rumuOld-3.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

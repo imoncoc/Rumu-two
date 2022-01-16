@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* h6{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mali&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

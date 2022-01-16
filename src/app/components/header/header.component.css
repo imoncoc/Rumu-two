@@ -1,0 +1,82 @@
+
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */
+/* Font-Style{
+  font-family: 'Kaushan Script', cursive;
+font-family: 'Mali', cursive;
+} */
+
+.custom-logo{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.6rem;
+  color: #F77F00 !important;
+}
+.custom-logo:hover{
+  color: #F77F00 !important;
+}
+.navbar-light{
+  background-color: #003049;
+  color: #fff;
+}
+a{
+  color: #FCBF49 !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Mali', cursive;
+}
+a:hover{
+  color: #EAE2B7 !important;
+}
+.btn-burger{
+  background-color: #FCBF49;
+}
+.btn-custom{
+  border: 0.15rem solid #EAE2B7;
+  border-radius: 8px;
+
+}
+.btn-signup{
+  background-color: #EAE2B7;
+  color: #003049 !important;
+  margin-right: 10px;
+
+}
+.color1{
+  color: #000 !important;
+  font-size: 1rem !important;
+}
+
+.signup__btn{
+  background-color: #FCBF49;
+  color: #003049;
+  border: 0.1rem solid #FCBF49;
+  /* background: transparent; */
+  margin-right: 5px;
+}
+.signup__btn:hover{
+  background: #003049;
+  color: #FCBF49;
+}
+.login__btn{
+  color: #FCBF49;
+  border: 0.1rem solid #FCBF49;
+  background: transparent;
+}
+.login__btn:hover{
+  background: #FCBF49;
+  color: #003049;
+}
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */

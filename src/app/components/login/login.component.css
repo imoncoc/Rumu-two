@@ -1,0 +1,49 @@
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */
+/* Font-Style{
+  font-family: 'Kaushan Script', cursive;
+font-family: 'Mali', cursive;
+} */
+
+
+.card{
+  /* background-color: #EAE2B7; */
+  background-color: #fff;
+  color: #003049;
+  /* color: #fff; */
+  font-family: 'Mali', cursive;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: 'Mali', cursive;
+  /* color: #fff; */
+}
+h6{
+  font-size: 1rem;
+  font-family: 'Mali', cursive;
+}
+a{
+  color: #003049;
+  font-weight: 600;
+  font-size: 1rem;
+
+}
+a:hover{
+  /* color:var(--umbar); */
+  text-decoration: none;
+  color: #D62828;
+  ;
+}
+
+.bg-custom{
+  background-color: #003049;
+  height: 100vh;
+}
+

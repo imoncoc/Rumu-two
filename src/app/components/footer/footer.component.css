@@ -1,0 +1,33 @@
+
+.footer{
+  background-color: #003049;
+  background-color: #081c15;
+}
+.footer-front-text{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #D62828;
+}
+.footer-front-text span{
+  border: dashed 2px #D62828;
+  padding: 0.5rem;
+}
+.footer-icon{
+  color: white;
+}
+.icon{
+  font-size: 1.3rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */

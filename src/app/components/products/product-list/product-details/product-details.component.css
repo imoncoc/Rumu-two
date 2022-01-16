@@ -1,0 +1,50 @@
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */
+.imgSrc{
+  height: 650px;
+  width: 700px;
+}
+
+h2{
+  font-size: 4rem;
+  font-family: 'Kaushan Script', cursive;
+  color: #D62828;
+}
+.id{
+  font-size: 2rem;
+  font-family: 'Kaushan Script', cursive;
+  color: #003049;
+}
+.color-id{
+  color: #F77F00 !important;
+}
+.color-description{
+  color: #F77F00;
+  font-weight: 500;
+}
+.description{
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.btn-price{
+  background-color: #003049;
+  color: white;
+}
+
+.btn-home{
+  background-color: #D62828;
+  color: white;
+  transition: all 0.5s;
+}
+
+.btn-home:hover{
+  background-color: #003049;
+  color: white;
+}

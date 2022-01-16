@@ -1,0 +1,41 @@
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */
+.max-fluid{
+  overflow: hidden;
+}
+.max-height{
+  min-height: 95vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(../../../assets/image/angela-bailey-jlo7Bf4tUoY-unsplash.jpg) no-repeat center fixed;
+  /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(src/assets/image/angela-bailey-jlo7Bf4tUoY-unsplash.jpg) no-repeat center fixed; */
+  background-size: cover;
+}
+
+h1{
+  font-size: 3.5rem;
+  /* color: aliceblue; */
+  color: #D62828;
+  font-family: 'Kaushan Script', cursive;
+  line-height: 1.5;
+}
+
+a{
+  /* background-color: var(--black-Coffee); */
+  background-color: #FCBF49;
+  /* color: var(--mint-Cream); */
+  color: #003049;
+  font-size: 1.5rem;
+  font-family: 'Mali', cursive;
+  font-weight: 600;
+  border: 0.2rem solid #FCBF49;
+  transition: ease-in-out 0.5s;
+}
+a:hover{
+  background-color: #003049;
+  color: #FCBF49;
+}

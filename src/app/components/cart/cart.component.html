@@ -1,0 +1,26 @@
+<div class="alert alert-info my-5 sticky-top" *ngIf="cartItems.length === 0">No Items Added to Cart</div>
+
+<ul class="list-group my-5 sticky-top" *ngIf="cartItems.length > 0">
+  <li class="list-group-item" *ngFor="let item of cartItems">
+    <app-cart-item [cartItem]="item"></app-cart-item>
+  </li>
+
+  <li class="list-group-item active">
+    <strong>Total</strong> {{ cartTotal | currency: "USD" }}
+  </li>
+
+  <li class="list-group-item">
+    <button mat-raised-button color="warn" (click)="clearCart()">Clear</button>
+  </li>
+</ul>
+
+<!-- <ul class="list-group sticky-top">
+  <li class="list-group-item" *ngFor="let i of [1, 2, 3, 4, 5]">
+    <app-cart-item></app-cart-item>
+  </li>
+
+  <li class="list-group-item active">
+    <strong>Total: {{ 1100 | currency: "USD" }} </strong>
+  </li>
+</ul> -->
+

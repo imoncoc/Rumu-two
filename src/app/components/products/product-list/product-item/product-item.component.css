@@ -1,0 +1,31 @@
+
+.featured-div{
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.featured-div:hover{
+  transform: translateY(-1rem) !important;
+}
+.order-button{
+  transition: all 0.4s;
+}
+.order-button:hover{
+  background-color: #D62828;
+  color: white;
+}
+.order-addToCart{
+  background-color: #F77F00;
+  transition: all 0.4s;
+}
+.order-addToCart:hover{
+  background-color: #FCBF49;
+}
+
+
+/* COLOR{
+  color: #003049;
+  color: #D62828;
+  color: #F77F00;
+  color: #FCBF49;
+  color: #EAE2B7;
+} */

@@ -1,0 +1,88 @@
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-6 col-10 mx-auto mt-5">
+      <div class="card p-5">
+        <div class="text-center">
+          <h2>Login</h2>
+          <h6>Please enter email & password</h6>
+        </div>
+
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" >Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter your email address" formControlName="email">
+            <mat-hint>Please enter a valid Email Address.</mat-hint>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" >Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password"
+            placeholder="Enter your password">
+            <mat-hint>Please enter a valid Password.</mat-hint>
+          </div>
+          <button mat-raised-button color="primary" class="w-100" type="submit">Login</button>
+
+          <div class="mt-2 text-center">
+            <a routerLink="/signup" class="">New user? Click here to SignUp !!</a>
+           </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="bg-custom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-10 my-5 mx-auto ">
+        <section class="card p-5">
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="text-center">
+              <h2 class="">Login </h2>
+            <p>Please enter your email & password</p>
+            </div>
+
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label >Email</mat-label>
+              <input type="email" name="email"
+              matInput
+              placeholder="Enter your Email Address"
+              formControlName="email">
+              <mat-hint >Please enter a valid email.</mat-hint>
+              <mat-error>Invalid or missing email.</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label >Password</mat-label>
+              <input type="password" name="password"
+              matInput
+              placeholder="Enter your Password"
+              formControlName="password">
+              <mat-hint >Please enter a valid Password.</mat-hint>
+              <mat-error>Invalid or missing password.</mat-error>
+            </mat-form-field>
+
+            <div>
+              <button mat-raised-button type="submit"
+            color="primary"
+            class="w-100"
+            [disabled]="!loginForm.valid">Submit</button>
+            </div>
+
+            <div class="mt-3 text-center ">
+              <a routerLink="/signup" class="">New user? Click here to SignUp !!
+              </a>
+             </div>
+
+          </form>
+
+          <!-- <button mat-button (click)="openSnackBar(snackBarMessage, 'Dismiss')">
+            Show snack-bar
+          </button> -->
+
+        </section>
+      </div>
+    </div>
+  </div>
+
+</div>

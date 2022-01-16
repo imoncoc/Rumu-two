@@ -1,0 +1,20 @@
+<div class="card" style="width: 18rem;">
+  <div class="">
+    <img [src]="productItem.imageUrl" class="card-img-top" alt="Baby Pine">
+  </div>
+  <div class="card-body">
+    <div class="d-flex justify-content-between">
+      <h5 class="card-title fs-5"> {{ productItem.name }} </h5>
+      <h5 class="card-title fs-5"> {{ productItem.id }} </h5>
+    </div>
+    <p class="card-text"> {{ productItem.description | slice: 0 : 100 }} </p>
+    <div class="d-flex my-2">
+      <!-- <button mat-raised-button  class="w-50 me-2">Stock: {{ productItem.stock }} Pices</button> -->
+      <button mat-raised-button  class="w-50 me-2" (click)="onSelect(productItem)">View Details</button>
+      <button mat-raised-button color="primary"  class="w-50">{{ productItem.price }} TAKA</button>
+    </div>
+
+    <button mat-stroked-button (click)="handleAddToCart()" class="w-100 mb-2 order-addToCart">Add To Cart</button>
+    <button mat-raised-button color="accent" class="w-100 order-button">Order Now</button>
+  </div>
+</div>

@@ -1,0 +1,106 @@
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-6 col-10 mx-auto my-5">
+      <div class="card p-5">
+        <div class="text-center">
+          <h2>Sign Up</h2>
+          <h6>Please Register Yourself !!</h6>
+        </div>
+
+        <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+            <input type="text" name="fullName" class="form-control" formControlName="fullName" >
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+            <input type="number" name="number" class="form-control" formControlName="number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" formControlName="password" id="exampleInputPassword1">
+          </div>
+          <button mat-raised-button color="primary" class="w-100" type="submit">Sign Up</button>
+         <div class="mt-2 text-center">
+          <a routerLink="/login" class="">Already Register? Click here to Login !!</a>
+         </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="bg-custom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-10 my-5 mx-auto ">
+        <section class="card p-5">
+          <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+            <div class="text-center">
+              <h2 class="">Sign Up</h2>
+            <p>Please Register Yourself !!</p>
+            </div>
+
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label >Full Name</mat-label>
+              <input type="text" name="fullName"
+              matInput
+              placeholder="Enter your Full Name"
+              formControlName="fullName">
+              <mat-hint >Please enter a valid Name.</mat-hint>
+              <mat-error>Invalid or missing Full name.</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label >Mobile Number</mat-label>
+              <input type="number" name="number"
+              matInput
+              placeholder="Enter your Mobile Number"
+              formControlName="number">
+              <mat-hint >Please enter a valid Number.</mat-hint>
+              <mat-error>Invalid or missing Mobile Number.</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label >Email</mat-label>
+              <input type="email" name="email"
+              matInput
+              placeholder="Enter your Email Address"
+              formControlName="email">
+              <mat-hint >Please enter a valid email.</mat-hint>
+              <mat-error>Invalid or missing email.</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="w-100" appearance="outline">
+              <mat-label >Password</mat-label>
+              <input type="password" name="password"
+              matInput
+              placeholder="Enter your Password"
+              formControlName="password">
+              <mat-hint >Please enter a valid Password.</mat-hint>
+              <mat-error>Invalid or missing password.</mat-error>
+            </mat-form-field>
+
+            <div>
+              <button mat-raised-button type="submit"
+            color="primary"
+            class="w-100"
+            [disabled]="!signupForm.valid">Submit</button>
+            </div>
+
+            <div class="mt-3 text-center ">
+              <a routerLink="/login" class="">Already Register? Click here to Login !!</a>
+             </div>
+
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+</div>

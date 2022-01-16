@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light p-3 sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand disabled custom-logo">RuMu Fashion</a>
+    <button class="navbar-toggler btn-burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" (click)="isShown = !isShown" [attr.aria-expanded]="isShown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': isShown }" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Disabled</a>
+        </li>
+      </ul>
+
+      <div class="div d-flex flex-column">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li><button class="btn signup__btn text-capitalize nav-item" routerLink="/signup">Sign Up</button></li> -->
+          <li><button class="btn login__btn text-capitalize nav-item" routerLink="/login">Logout</button></li>
+          <!-- <li><button class="btn login__btn text-capitalize nav-item" routerLink="/login">Login</button></li> -->
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+
